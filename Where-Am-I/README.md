@@ -1,5 +1,5 @@
 # Project3
-Design a robot that chases a white ball and simulate in ROS.
+Use Adaptive Monte Carlo Localization to identify the position of the robot.
 
 
 ## Clone directory
@@ -32,7 +32,7 @@ source devel/setup.bash
 roslauch my_robot world.launch
 ```
 
-##  Launch ball_chaser 
+##  Launch adaptive Monte Carlo Localization 
 **Open a new terminal**
 ```
 cd catkin_ws
@@ -41,4 +41,4 @@ roslaunch my_robot amcl.launch
 ```
 
 ##  Simulation in ROS
-<img src="https://github.com/jhchang903/Project2/blob/master/ros.gif" width="700">
+<img src="https://github.com/jhchang903/Robotics-Udacity/blob/master/Where-Am-I/amcl.gif" width="700">
